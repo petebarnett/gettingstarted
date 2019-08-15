@@ -1,0 +1,46 @@
+[settings]
+    arch=x86_64
+    build_type=Release
+    compiler=apple-clang
+    compiler.libcxx=libc++
+    compiler.version=10.0
+    os=Macos
+
+[requires]
+    glad/0.1.29
+    glfw/3.Y.Z
+
+[options]
+
+
+[full_settings]
+    arch=x86_64
+    arch_build=x86_64
+    build_type=Release
+    compiler=apple-clang
+    compiler.libcxx=libc++
+    compiler.version=10.0
+    os=Macos
+    os_build=Macos
+
+[full_requires]
+    glad/0.1.29@bincrafters/stable:94d23a5b6799ba50e68988fd8c0740e6c4ee9b52
+    glfw/3.3@bincrafters/stable:534dcc368c999e07e81f146b3466b8f656ef1f55
+
+[full_options]
+    glad:api_type=gl
+    glad:api_version=3.2
+    glad:extensions=''
+    glad:fPIC=True
+    glad:no_loader=False
+    glad:profile=core
+    glad:shared=False
+    glad:spec=gl
+    glfw:fPIC=True
+    glfw:shared=False
+
+[recipe_hash]
+
+
+[env]
+
